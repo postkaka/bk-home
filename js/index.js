@@ -242,7 +242,7 @@ function fnOverp2(){
 	document.getElementById("p2line").classList.remove("quality-image-div-line")
 	document.getElementById("text1p2").classList.add("new-quality-image-div-text")
 	document.getElementById("text1p2").classList.remove("quality-image-div-text")
-	document.getElementById("text2p2").classList.add("quality-image-div-text3")
+	document.getElementById("text2p2").classList.add("quality-image-div-text9")
 	document.getElementById("text2p2").classList.remove("none")
 	document.getElementById("text3p2").classList.add("quality-image-div-text4")
 	document.getElementById("text3p2").classList.remove("none")
@@ -265,7 +265,7 @@ function fnOutp2() {
 	document.getElementById("p2line").classList.remove("new-quality-image-div-line")
 	document.getElementById("text1p2").classList.remove("new-quality-image-div-text")
 	document.getElementById("text1p2").classList.add("quality-image-div-text")
-	document.getElementById("text2p2").classList.remove("quality-image-div-text3")
+	document.getElementById("text2p2").classList.remove("quality-image-div-text9")
 	document.getElementById("text2p2").classList.add("none")
 	document.getElementById("text3p2").classList.remove("quality-image-div-text4")
 	document.getElementById("text3p2").classList.add("none")
@@ -332,7 +332,7 @@ function fnOverp4(){
 	document.getElementById("p4line").classList.remove("quality-image-div-line")
 	document.getElementById("text1p4").classList.add("new-quality-image-div-text")
 	document.getElementById("text1p4").classList.remove("quality-image-div-text")
-	document.getElementById("text2p4").classList.add("quality-image-div-text3")
+	document.getElementById("text2p4").classList.add("quality-image-div-text9")
 	document.getElementById("text2p4").classList.remove("none")
 	document.getElementById("text3p4").classList.add("quality-image-div-text4")
 	document.getElementById("text3p4").classList.remove("none")
@@ -355,7 +355,7 @@ function fnOutp4() {
 	document.getElementById("p4line").classList.remove("new-quality-image-div-line")
 	document.getElementById("text1p4").classList.remove("new-quality-image-div-text")
 	document.getElementById("text1p4").classList.add("quality-image-div-text")
-	document.getElementById("text2p4").classList.remove("quality-image-div-text3")
+	document.getElementById("text2p4").classList.remove("quality-image-div-text9")
 	document.getElementById("text2p4").classList.add("none")
 	document.getElementById("text3p4").classList.remove("quality-image-div-text4")
 	document.getElementById("text3p4").classList.add("none")
@@ -557,8 +557,10 @@ function fnOutp8() {
 function fnOverbg1(){
 	document.getElementById("bg4").classList.add("none")
 	document.getElementById("bg4").classList.remove("serve-bg-item")
+	document.getElementById("serve-img4").classList.add("serve-img-margin")
 	document.getElementById("bg1").classList.remove("none")
 	document.getElementById("bg1").classList.add("serve-bg-item")
+	// document.getElementById("serve-img1").classList.add("imageleft")
 	document.getElementById("blacksrc").src="./img/black1.png"
 	document.getElementById("small1").src="./img/1choose.png"
 	document.getElementById("small4").src="./img/4small.png"
@@ -575,6 +577,7 @@ function fnOverbg1(){
 function fnOverbg2(){
 	document.getElementById("bg4").classList.add("none")
 	document.getElementById("bg4").classList.remove("serve-bg-item")
+	document.getElementById("serve-img4").classList.add("serve-img-margin")
 	document.getElementById("bg2").classList.remove("none")
 	document.getElementById("bg2").classList.add("serve-bg-item")
 	document.getElementById("blacksrc").src="./img/black2.png"
@@ -593,6 +596,7 @@ function fnOverbg2(){
 function fnOverbg3(){
 	document.getElementById("bg4").classList.add("none")
 	document.getElementById("bg4").classList.remove("serve-bg-item")
+	document.getElementById("serve-img4").classList.add("serve-img-margin")
 	document.getElementById("bg3").classList.remove("none")
 	document.getElementById("bg3").classList.add("serve-bg-item")
 	document.getElementById("blacksrc").src="./img/black3.png"
@@ -611,6 +615,7 @@ function fnOverbg3(){
 function fnOverbg4(){
 	document.getElementById("bg3").classList.add("none")
 	document.getElementById("bg3").classList.remove("serve-bg-item")
+	document.getElementById("serve-img4").classList.remove("serve-img-margin")
 	document.getElementById("bg4").classList.remove("none")
 	document.getElementById("bg4").classList.add("serve-bg-item")
 	document.getElementById("blacksrc").src="./img/black4.png"
@@ -637,6 +642,7 @@ function fnOverbg5(){
 	document.getElementById("small4").src="./img/4small.png"
 	document.getElementById("bg4").classList.add("none")
 	document.getElementById("bg4").classList.remove("serve-bg-item")
+	document.getElementById("serve-img4").classList.add("serve-img-margin")
 	document.getElementById("small1").src="./img/1small.png"
 	document.getElementById("bg1").classList.add("none")
 	document.getElementById("bg1").classList.remove("serve-bg-item")

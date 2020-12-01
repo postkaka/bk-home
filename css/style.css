@@ -1,7 +1,7 @@
 <style>
 @import url(style.css);
 body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
-body{font:22px"SourceHanSansCN";background:#fff;-webkit-text-size-adjust:100%;font-weight: 400;} 
+body{font:22px"Source Han Sans SC";background:#fff;-webkit-text-size-adjust:100%;font-weight: 400;} 
 a{color:#2d374b;text-decoration:none} 
 a:hover{color:#cd0200;text-decoration:underline} 
 em{font-style:normal} 
@@ -37,7 +37,7 @@ p{word-wrap:break-word}
 }
 .mui-bar-div {
 	font-size: 18px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #102D50;
 }
@@ -45,7 +45,7 @@ p{word-wrap:break-word}
 	display: flex;
 	align-items: center;
 	font-size: 16px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #000000;
 	line-height: 44px;
@@ -78,7 +78,7 @@ p{word-wrap:break-word}
 	width: 252px;
 	height: 45px;
 	font-size: 48px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 500;
 	color: #000000;
 	line-height: 44px;
@@ -110,7 +110,7 @@ p{word-wrap:break-word}
 	width: 510px;
 	height: 54px;
 	font-size: 22px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 500;
 	color: #4C4948;
 	line-height: 32px;
@@ -120,7 +120,7 @@ p{word-wrap:break-word}
 	width: 560px;
 	height: 95px;
 	font-size: 16px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #4C4948;
 	line-height: 26px;
@@ -132,7 +132,7 @@ p{word-wrap:break-word}
 	width: 711px;
 	height: 94px;
 	font-size: 16px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #4C4948;
 	line-height: 26px;
@@ -164,7 +164,7 @@ p{word-wrap:break-word}
 	width: 354px;
 	height: 107px;
 	font-size: 48px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 500;
 	color: #000000;
 	line-height: 62px;
@@ -202,7 +202,7 @@ p{word-wrap:break-word}
 .advantage-item-text {
 	width: 128px;
 	font-size: 16px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: bold;
 	color: #4C4948;
 	line-height: 44px;
@@ -212,7 +212,7 @@ p{word-wrap:break-word}
 .advantage-item-text-more {
 	width: 180px;
 	font-size: 12px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #4C4948;
 	line-height: 20px;
@@ -232,7 +232,7 @@ p{word-wrap:break-word}
 	margin-top: 49px;
 	width: 355px;
 	font-size: 48px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 500;
 	color: #000000;
 	line-height: 62px;
@@ -275,24 +275,25 @@ p{word-wrap:break-word}
 	flex-direction: column;
 }
 .serve-bg-item-text1 {
-	width: 223px;
+	width: 240px;
 	height: 84px;
 	font-size: 36px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 500;
 	color: #FFFFFF;
 	line-height: 50px;
 	margin-bottom: 30px;
+	letter-spacing: 2px;
 }
 .serve-bg-item-text2 {
-	width: 253px;
-	height: 166px;
+	width: 400px;
 	font-size: 22px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #FFFFFF;
 	line-height: 36px;
 	text-align: left;
+	letter-spacing: 2px;
 }
 .serve-bg-item-src {
 	margin-left: 177px;
@@ -313,7 +314,7 @@ p{word-wrap:break-word}
 	width: 354px;
 	height: 108px;
 	font-size: 48px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 500;
 	color: #000000;
 	line-height: 62px;
@@ -359,7 +360,7 @@ p{word-wrap:break-word}
 	width: 74px;
 	height: 18px;
 	font-size: 18px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 500;
 	color: #4C4948;
 	line-height: 26px;
@@ -418,7 +419,7 @@ p{word-wrap:break-word}
 }
 .curriculum-headline {
 	font-size: 48px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 500;
 	color: #000000;
 	text-align: center;
@@ -433,7 +434,7 @@ p{word-wrap:break-word}
 	height: 45px;
 	border-radius: 22px;
 	font-size: 28px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 500;
 	text-align: center;
 }
@@ -472,7 +473,7 @@ p{word-wrap:break-word}
 .curriculum-tab-item div {
 	margin-top: 20px;
 	font-size: 14px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #4C4948;
 	text-align: center;
@@ -511,7 +512,7 @@ p{word-wrap:break-word}
 	width: 74px;
 	height: 18px;
 	font-size: 18px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 500;
 	color: #4C4948;
 	line-height: 26px;
@@ -532,7 +533,7 @@ p{word-wrap:break-word}
 	margin-top: 18px;
 	width: 210px;
 	font-size: 12px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #4C4948;
 	text-align: center;
@@ -541,7 +542,7 @@ p{word-wrap:break-word}
 	margin-top: 5px;
 	width: 200px;
 	font-size: 12px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #4C4948;
 	text-align: center;
@@ -551,7 +552,7 @@ p{word-wrap:break-word}
 	width: 70px;
 	text-align: center;
 	font-size: 12px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #FFFFFF;
 	background-color: #F6AC19;
@@ -562,7 +563,7 @@ p{word-wrap:break-word}
 .quality-image-div-text6 {
 	width: 200px;
 	font-size: 12px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #4C4948;
 	text-align: center;
@@ -570,7 +571,7 @@ p{word-wrap:break-word}
 .quality-image-div-text7 {
 	width: 200px;
 	font-size: 12px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #4C4948;
 	text-align: center;
@@ -581,7 +582,7 @@ p{word-wrap:break-word}
 	width: 70px;
 	text-align: center;
 	font-size: 12px;
-	font-family: SourceHanSansCN;
+	font-family: Source Han Sans SC;
 	font-weight: 400;
 	color: #FFFFFF;
 	background-color: #F6AC19;
@@ -589,7 +590,38 @@ p{word-wrap:break-word}
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
+.quality-image-div-text9 {
+	margin-top: 18px;
+	width: 240px;
+	font-size: 12px;
+	font-family: Source Han Sans SC;
+	font-weight: 400;
+	color: #4C4948;
+	text-align: center;
+}
 .none {
 	display: none;
+}
+.imageleft {
+	margin-right: 25px;
+}
+.bg-3 {
+	display: flex;
+}
+.bg-3-item {
+	display: flex;
+	flex-direction: column;
+	margin-left: 12px;
+}
+.bg-3-img img {
+	width: 297px;
+	height: 280px;
+}
+.bg-3-item-1 {
+	margin-bottom: 18px;
+}
+.bg-3-item img {
+	width: 190px;
+	height: 130px;
 }
 </style>
